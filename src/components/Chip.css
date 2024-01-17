@@ -1,0 +1,115 @@
+
+h2{
+    text-align: center;
+    color: blue;
+}
+.input_box{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #fff;
+    padding: 8px;
+    margin: 0 5px;
+    border: none;
+    border-bottom: 2px solid blue;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+}
+
+.chip_user{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    width: max-content;
+    background: rgb(186 186 186);
+    border: none;
+    border-radius: 22px;
+    padding: 4px 8px;
+    height: 28px;
+}
+
+.chip_img_container{
+    width: 30px;
+    height: 100%;
+}
+.chip_img_container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.close{
+    padding: 4px 6px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+}
+
+.close:hover{
+    transition: all 0.3s ease-in-out;
+    background-color: gray;
+}
+
+
+/* Users  */
+
+.users_container{
+    width: 328px;
+    background: white;
+    box-shadow: 1px 1px 12px #8f8b8b;
+    max-height: 290px;
+    overflow-y: auto;
+    position: absolute;
+}
+.user{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 0 14px;
+}
+
+.img_container{
+    width: 40px;
+    height: 40px;
+}
+.img_container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.user:hover{
+    background: #eee;
+    cursor: pointer;
+}
+
+.selected{
+    background: #eee;
+}
+
+/* Scrollbar */
+
+#scroll::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(255, 255, 255, 0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+#scroll::-webkit-scrollbar
+{
+	width: 8px;
+	background-color: #F5F5F5;
+}
+
+#scroll::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(219, 219, 219, 0.3);
+	background-color: #b1b1b1;
+    border-right: 2px transparent solid;
+    background-clip: padding-box;
+} 
+
