@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/realverma/react-chip.git/static/css/main.7f9d690c.css",
+    "main.js": "/realverma/react-chip.git/static/js/main.54453bea.js",
+    "static/js/787.fb403ad9.chunk.js": "/realverma/react-chip.git/static/js/787.fb403ad9.chunk.js",
+    "index.html": "/realverma/react-chip.git/index.html",
+    "main.7f9d690c.css.map": "/realverma/react-chip.git/static/css/main.7f9d690c.css.map",
+    "main.54453bea.js.map": "/realverma/react-chip.git/static/js/main.54453bea.js.map",
+    "787.fb403ad9.chunk.js.map": "/realverma/react-chip.git/static/js/787.fb403ad9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7f9d690c.css",
+    "static/js/main.54453bea.js"
+  ]
+}
